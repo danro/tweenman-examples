@@ -8,7 +8,7 @@ This repo uses submodules for the source files, so remember to recursively clone
 	
 	git clone --recursive git://github.com/danro/tweenman-examples.git
 
-Otherwise, if you download a zip archive, you will have to manually copy the source files into the respective `as[x]/src/com/tweenman/` directory.
+Otherwise, you can manually copy the source files into the respective `as[x]/src/com/tweenman/` directory.
 
 See Also
 --------
