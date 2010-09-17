@@ -1,8 +1,8 @@
-TweenMan ActionScript tweening library
+TweenMan example files for AS3 and AS2
 ======================================
 
-Examples Info
--------------
+Setup Instructions
+------------------
 
 This repo uses submodules for the source files, so remember to recursively clone if you need the source.
 	
