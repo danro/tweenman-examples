@@ -3,10 +3,10 @@
 Examples Info
 -------------
 
-This repo uses submodules for the source files, so remember to recursively clone (if you don't already have the source)
+This repo uses submodules for the source files, so remember to recursively clone (if you don't already have the source)<br/>
 `git clone --recursive git://github.com/danro/tweenman-examples.git`
 
-Otherwise, if you download a zip archive, you will have to manually copy the source files into the respective `/as[x]/src/com/tweenman/` directory.
+Otherwise, if you download a zip archive, you will have to manually copy the source files into the respective `as[x]/src/com/tweenman/` directory.
 
 See Also
 --------
