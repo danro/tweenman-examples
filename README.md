@@ -4,7 +4,7 @@ TweenMan ActionScript tweening library
 Examples Info
 -------------
 
-This repo uses submodules for the source files, so remember to recursively clone (if you don't already have the source)
+This repo uses submodules for the source files, so remember to recursively clone if you need the source.
 	
 	git clone --recursive git://github.com/danro/tweenman-examples.git
 
