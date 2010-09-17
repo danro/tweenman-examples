@@ -1,4 +1,5 @@
-**TweenMan ActionScript tweening library**
+TweenMan ActionScript tweening library
+======================================
 
 Examples Info
 -------------
