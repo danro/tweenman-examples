@@ -1,0 +1,6 @@
+[submodule "as2/src/com/tweenman"]
+	path = as2/src/com/tweenman
+	url = git@github.com:danro/tweenman-as2.git
+[submodule "as3/src/com/tweenman"]
+	path = as3/src/com/tweenman
+	url = git@github.com:danro/tweenman-as3.git
