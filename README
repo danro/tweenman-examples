@@ -1,6 +1,7 @@
 TweenMan ActionScript tweening library [Examples]
 
-[*NOTE* use recursive clone to get src directories]
+[NOTE] use recursive clone to get src (if you don't already have it)
+
 git clone --recursive git://github.com/danro/tweenman-examples.git
 
 
