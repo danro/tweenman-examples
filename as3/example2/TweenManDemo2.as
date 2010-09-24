@@ -21,7 +21,7 @@ package
 		function demo1 ()
 		{	
 			var colorProps = { hue: Math.random()*360, contrast: 0.4 };
-			TweenMan.addTween(mc, { frames: 30, colormatrix: colorProps, ease: "easeInCubic" });
+			TweenMan.addTween(mc, { frames: 30, colorMatrix: colorProps, ease: "easeInCubic" });
 			TweenMan.addTween(this, { frames: 18, onComplete: demo2 });			
 		}
 		
@@ -35,7 +35,7 @@ package
 		
 		function demo3 ()
 		{		
-			TweenMan.addTween(mc, { frames: 40, colormatrix: null, blur: null, ease: "easeInOutCubic" })
+			TweenMan.addTween(mc, { frames: 40, colorMatrix: null, blur: null, ease: "easeInOutCubic" })
 			TweenMan.addTween(mc, { frames: 80, color: null, ease: "easeInOutCubic" });
 			TweenMan.addTween(this, { frames: 70, onComplete: demo1 });
 		}
