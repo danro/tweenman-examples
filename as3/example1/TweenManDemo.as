@@ -38,7 +38,7 @@ package
 			nextDemo = demo3;
 
 			TweenMan.addTween(mc, { time: 1, glow: null, ease: "easeOutExpo" });
-			TweenMan.addTween(mc, { frames: 50, color: { tintColor: Math.random()*0xFFFFFF, tintMultiplier: 0.5 } });
+			TweenMan.addTween(mc, { time: 1, color: { tintColor: Math.random()*0xFFFFFF, tintMultiplier: 0.5 } });
 			TweenMan.addTween(mc, { frames: 20, blur: null });
 		}
 		
