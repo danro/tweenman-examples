@@ -21,23 +21,23 @@ package
 		function demo1 ()
 		{	
 			var colorProps = { hue: Math.random()*360, contrast: 0.4 };
-			TweenMan.addTween(mc, { frames: 30, colorMatrix: colorProps, ease: "easeInCubic" });
-			TweenMan.addTween(this, { frames: 18, onComplete: demo2 });
+			TweenMan.add(mc, { frames: 30, colorMatrix: colorProps, ease: "easeInCubic" });
+			TweenMan.add(this, { frames: 18, onComplete: demo2 });
 		}
 		
 		function demo2 ()
 		{
 			var blurProps = { blurX: 10, blurY: 10, quality: 2 };
-			TweenMan.addTween(mc, { frames: 10, color: { burn: 0.7 }, delay: 8, ease: "easeInOutCubic" });
-			TweenMan.addTween(mc, { frames: 20, blur: blurProps, delay: 3, ease: "easeInOutCubic" });
-			TweenMan.addTween(this, { frames: 18, onComplete: demo3 });
+			TweenMan.add(mc, { frames: 10, color: { burn: 0.7 }, delay: 8, ease: "easeInOutCubic" });
+			TweenMan.add(mc, { frames: 20, blur: blurProps, delay: 3, ease: "easeInOutCubic" });
+			TweenMan.add(this, { frames: 18, onComplete: demo3 });
 		}
 		
 		function demo3 ()
 		{		
-			TweenMan.addTween(mc, { frames: 40, colorMatrix: null, blur: null, ease: "easeInOutCubic" })
-			TweenMan.addTween(mc, { frames: 70, color: null, ease: "easeInOutCubic" });
-			TweenMan.addTween(this, { frames: 70, onComplete: demo1 });
+			TweenMan.add(mc, { frames: 40, colorMatrix: null, blur: null, ease: "easeInOutCubic" })
+			TweenMan.add(mc, { frames: 70, color: null, ease: "easeInOutCubic" });
+			TweenMan.add(this, { frames: 70, onComplete: demo1 });
 		}
 	}
 }

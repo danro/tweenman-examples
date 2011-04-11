@@ -28,15 +28,15 @@ package
 		private function rollOverHandler (e:Event)
 		{
 			var button:MovieClip = MovieClip(e.target);
-			TweenMan.addTween(button, { frames: 10, frame: button.totalFrames });
-			TweenMan.addTween(button, { time: 0.5, blur: { blurX: 50 } });
+			TweenMan.add(button, { frames: 10, frame: button.totalFrames });
+			TweenMan.add(button, { time: 0.5, blur: { blurX: 50 } });
 		}
 	
 		private function rollOutHandler (e:Event)
 		{
 			var button:MovieClip = MovieClip(e.target);
-			TweenMan.addTween(button, { frames: 20, frame: 1, delay: 5 });
-			TweenMan.addTween(button, { time: 1, blur: null, ease: "easeInOutQuint" });
+			TweenMan.add(button, { frames: 20, frame: 1, delay: 5 });
+			TweenMan.add(button, { time: 1, blur: null, ease: "easeInOutQuint" });
 		}	
 	}
 }
